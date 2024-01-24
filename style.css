@@ -1,0 +1,71 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+form{
+    width: 380px;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+form div
+{
+    margin-bottom: 50px;
+}
+label
+{
+    display: block;
+    margin-bottom: 10px;
+}
+input
+{
+    width:100%;
+    box-shadow:0;
+    background:transparent;
+    color:#fff;
+    border-width:0 0 0.1em;
+    border-color:#050404;
+    border-style:solid;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    position: relative;
+    left: -180px;
+    margin-top: 30px;
+}
+p
+{
+    position: relative;
+   left: 32px;
+   bottom: 40px;
+}
+label[for="username"]
+{
+    bottom: 10px;
+}
+[value="CONTINUE"]
+{
+    color: rgb(255, 255, 255);
+    border: solid 1px;
+    position: relative;
+    margin-top: -390px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(184, 5, 5);
+    cursor: pointer;
+}
+[value="CONTINUE"]:hover{
+    background-color: #f95858;
+}
+.bi.bi-cash-coin{
+    left: 330px;
+    position: relative;
+    width: 50px;
+    height: 70px;
+    margin-top: 30px;
+    padding: 10px;
+    bottom: -90px;
+}
+input{
+color: black;
+}
